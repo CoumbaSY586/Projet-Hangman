@@ -81,7 +81,7 @@ def jouer():
                 else:
                   point_erreur = 0
                 if point_erreur == 0:
-                    if tentative > 0:s
+                    if tentative > 0:
                         tentative -= 1
                 alphabet = alphabet.replace(lettre, "")
                 print("Il vous reste ", point_erreur, " avertissement(s)")
